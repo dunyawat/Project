@@ -1,0 +1,173 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block page %}
+<style>
+    section{
+       height:500px;
+       background: linear-gradient(to top, black 0%,black 40%,gray 40%,gray 45%, #EEE 45%, #EEE 100%);
+       color: #fff;
+    }
+    
+    section:hover{
+        margin: -11px;
+        background: linear-gradient(to top, rgb(2, 59, 87) 0%,rgb(2, 59, 87) 40%,#04608D 40%,#04608D 45%, #1C9BDA 45%, #1C9BDA 100%);
+    }
+    
+    
+</style>
+<!-- height:500px; background: linear-gradient(to top, #04608D 0%,#04608D 40%,gray 40%,gray 45%, #1C9BDA 45%, #1C9BDA 100%);" -->
+
+<!-- section hero -->
+<div class="">
+    <div class="container py-5 text-center">
+        <div>
+            <h1>ระบบบริหารร้านค้าอัจฉริยะที่เลือกได้ตามสไตล์คุณ</h1>
+            <p>ทางเลือกใหม่ในการจัดหน้าร้าน หลังร้าน และอีคอมเมิร์ชที่เหมาะกับคุณที่สุด</p>
+            <button class="btn btn-info mr-sm-2 btn-sm" type="submit">Start Now</button>
+            <button class="btn btn-outline-info my-2 my-sm-0 btn-sm" type="submit">Contact Sales</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="container text-center">
+    <img id="img-area" src="../static/img/card-hero.jpg" width="200px" height="200px">
+</div>
+
+<div style="background-color: #1C9BDA;">
+<div class="container text-light">
+    <div class="row">
+        <div class="col-lg-3">
+           <button class="btn btn-outline-light" style="border: 0;" onclick="w()">หน้าร้านขายปีก</button>
+        </div>
+        <div class="col-lg-3">
+            <button class="btn btn-outline-light" style="border: 0;" onclick="x()">อีคอมเมิรช์</button>
+        </div>
+        <div class="col-lg-3">
+            <button class="btn btn-outline-light" style="border: 0;" onclick="y()">สินค้าคงคลัง</button>
+        </div>
+        <div class="col-lg-3">
+            <button class="btn btn-outline-light" style="border: 0;" onclick="z()">ระบบสมาชิก</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<div style="background-color: #04608D;">
+    <div class="container text-light text-muted">
+        <div class="row">
+            <div class="col-lg-3">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima quisquam unde velit explicabo, tenetur incidunt eius. At atque et reprehenderit blanditiis fugit dolores debitis soluta! Velit laudantium veritatis labore ducimus.
+            </div>
+            <div class="col-lg-3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi repellendus voluptate, obcaecati fuga, voluptas aut aperiam sapiente iusto, iure eos nihil. Totam, repudiandae! Veritatis itaque, hic odio placeat aspernatur commodi!
+            </div>
+            <div class="col-lg-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum vel quo amet obcaecati voluptatem, assumenda voluptates molestiae nihil iusto consequuntur! Animi assumenda optio illo ex, at enim tempore ducimus odit.
+            </div>
+            <div class="col-lg-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur adipisci laboriosam incidunt, voluptatem possimus tempora voluptate iure? Quae, fuga voluptate, obcaecati sequi ex impedit asperiores tenetur facere enim numquam ut.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-light" style="height: 500px;">
+
+</div>
+
+<div class="bg-info" style="background: linear-gradient(to right, #04608D 0%,#04608D 50%, #eee 50%, #eee 100%);">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg-6">
+
+                <div>
+                    <h1>เราคือใคร</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium unde dicta sit voluptas nesciunt voluptatibus facilis veniam impedit at exercitationem sint quisquam doloribus, distinctio sunt fuga quidem doloremque qui.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="text-center">
+                    <h1 class="">TRUESTED BY</h1>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="{%static 'img/LUSH.jpg' %}" width="200px">
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="{%static 'img/LUSH.jpg' %}" width="200px">
+                        </div>
+                        <div class="col-lg-12 mt-4">
+                            <img src="{%static 'img/LUSH.jpg' %}" width="200px">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-lg-4 p-0 ps1"  >
+            <section class="text-center package" >
+                <h1 class="text-dark">Lite</h1>
+                <img src="../static/img/card-hero.jpg" width="200px" height="200px">
+                <br>
+                <br>
+                <br>    
+                <h1>Free</h1>
+                <p class="px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi tempora facere nam eveniet odio eaque, quis autem ipsum nemo ist</p>
+            </section>
+        </div>
+
+        <div class="col-lg-4 p-0 ps1" >
+            <section class="text-center package">
+                <h1 class="text-dark">Pro</h1>
+                <img src="../static/img/card-hero.jpg" width="200px" height="200px">
+                <br>
+                <br>
+                <br>    
+                <h1>$89</h1>
+                <p  class="px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi tempora facere nam eveniet odio eaque, quis autem ipsum nemo ist</p>
+            </section>
+        </div>
+
+        <div class="col-lg-4 p-0 ps1" >
+            <section class="text-center package">
+                <h1 class="text-dark">Enterprise</h1>
+                <img src="../static/img/card-hero.jpg" width="200px" height="200px">
+                <br>
+                <br>
+                <br>    
+                <h1>$159</h1>
+                <p class="px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi tempora facere nam eveniet odio eaque, quis autem ipsum nemo ist</p>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    var img = document.getElementById("img-area")
+    function w(){
+        img.src='../static/img/card-hero.jpg';
+    }
+    function x(){
+        img.src='../static/img/customer-management-hero.jpg';
+    }
+
+    function y(){
+        img.src='../static/img/hero1.jpg';
+    } 
+
+    function z(){
+        img.src='../static/img/inventory.jpg';
+    } 
+</script>
+
+{% endblock%}

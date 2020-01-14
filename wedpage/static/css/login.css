@@ -1,0 +1,26 @@
+.login hr{
+    border: 3px solid gray;
+}
+
+.login table{
+    width: 450px; 
+    margin: 0 auto;
+}
+
+.login .form-control{
+    width: 100%;
+}
+
+
+@media (max-width: 1024px){
+    .login table{
+        width: 400px;   
+    }
+}
+
+
+@media (max-width: 414px){
+    .login table{
+        width: 200px;   
+    }
+}

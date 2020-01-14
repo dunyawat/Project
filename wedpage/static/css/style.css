@@ -1,0 +1,94 @@
+
+
+/* section left-right */
+.left-right{
+    height: 500px;
+ }
+
+.left-right .photo{
+    background-size: cover; background-position: center;
+ }
+
+ @media (max-width: 960px){
+    .left-right .text{
+        text-align: center !important;
+    }
+    .left-right h1{
+        font-size: 40px;
+    }
+    
+
+}
+ @media (max-width: 375px){
+    .left-right h1{
+        font-size: 25px;
+    }
+    .left-right p{
+        font-size: 14px;
+    }
+    
+
+}
+
+
+
+
+
+ 
+
+/* ------------------------------------------------------pagecard----------------------------------------------------------------  */
+
+
+
+.jumbotron h1{
+    font-size: 40px;
+}
+
+@media (max-width: 576px){
+    .card-choice{
+       font-size: 14px;
+       
+    }
+}
+
+
+
+/* ------------------------------------------------------section customer-management----------------------------------------------------*/
+    
+
+@media (min-width: 1024px){
+    .jumbotron-customer-management .card-choice{
+        text-align: right;
+        
+    }
+}
+
+.jumbotron h1{
+    font-size: 40px;
+}
+
+@media (max-width: 375px){
+    .jumbotron h1{
+        font-size: 30px;
+    }
+}
+
+
+/* -------------------------------------------section featurepage--------------------------------------- */
+
+.featurepage-detail .card{
+    border: 0px;
+}
+
+.featurepage-detail ul{
+    list-style-type:none;
+}
+
+
+.featurepage-detail li{
+    width: 250px;
+    padding-bottom: 10px;
+    
+}
+
+

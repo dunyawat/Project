@@ -1,0 +1,120 @@
+/* section hero */
+.hero{
+    background: linear-gradient(to right, #1C9BDA 0%,#1C9BDA 70%, #04608D 30%, #04608D 100%);
+    color: white;
+  }
+.hero h1{
+    font-size: 70px;
+ } 
+ .hero p{
+    font-size: 24px;
+ } 
+
+.hero button{
+    width: 150px; height:50px;
+}
+
+.hero img{
+    width: 600px;
+    margin:auto; 
+    display:block; 
+    text-align:center
+}
+
+ @media (max-width: 1024px){
+    .hero img{
+        width: 450px;
+    }
+ }
+ @media (max-width: 800px){
+    .hero img{
+        width: 400px;
+    }
+ }
+
+ @media (max-width: 598px){
+    .hero img{
+       width: 250px;
+    }
+ 
+
+ }
+  
+ @media (max-width: 960px){
+    .hero{
+      background: linear-gradient(to bottom, #1C9BDA 0%,#1C9BDA 60%, #04608D 40%, #04608D 100%);
+    }
+    .hero h1{
+        font-size: 60px;
+    }
+
+    .hero p{
+        font-size: 20px;
+    }
+    
+ }
+ @media (max-width: 325px){
+    .hero button{
+        width: 100px;
+        font-size: 12px;
+    }
+ }
+
+
+
+ /* --------------------------------hero-card---------------------------------------- */
+ .card-hero h1{
+    font-size: 55px;
+}
+
+.card-hero p{
+    font-size: 24px;
+}
+@media (max-width: 1024px){
+    .card-hero h1{
+        font-size: 45px;
+    }
+    
+    .card-hero p{
+        font-size: 18px;
+    }
+}
+@media (max-width: 414px){
+    .card-hero h1{
+        font-size: 30px;
+    }
+    
+    .card-hero p{
+        font-size: 12px;
+    }
+}
+
+
+
+ /* --------------------------------hero-customer-management---------------------------------------- */
+
+ .customer-management-hero h1{
+    font-size: 55px;
+}
+
+.customer-management-hero p{
+    font-size: 24px;
+}
+@media (max-width: 1024px){
+    .customer-management-hero h1{
+        font-size: 45px;
+    }
+    
+    .customer-management-hero p{
+        font-size: 18px;
+    }
+}
+@media (max-width: 414px){
+    .customer-management-hero h1{
+        font-size: 30px;
+    }
+    
+    .customer-management-hero p{
+        font-size: 16px;
+    }
+}

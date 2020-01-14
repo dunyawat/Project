@@ -1,0 +1,251 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block page %}
+<!-- section hero -->
+<div class="hero customer-management-hero">
+    <div class="container py-5 text-center">
+            <div>
+                <h1>Feature Overview</h1>
+                <p>เราคือบริษัทซอร์ฟแวร์ที่เชี่ยวชาญระบบการขาย<br>ไม่ว่าจะเป็นระบบหน้าร้าน อีคอมเมิรช์ และระบบหลังบ้าน</p>
+                <button class="btn btn-light mr-sm-2 btn-sm" type="submit">Start Now</button>
+                <button class="btn btn-outline-light my-2 my-sm-0 btn-sm" type="submit">Contact Sales</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- / -->
+<div class="container">
+    <div class="row">
+        <div class="d-none d-lg-block col-lg-3">
+            <ul style="list-style-type:none;">
+                <li><button class="btn btn-outline-info" style="border: 0;">Features Overview</button></li>
+                <li><button class="btn btn-outline-info" style="border: 0;">Point of Sale</button></li>
+                <li><button class="btn btn-outline-info" style="border: 0;">Inventory Managament</button></li>
+                <li><button class="btn btn-outline-info" style="border: 0;">Payments</button></li>
+                <li><button class="btn btn-outline-info" style="border: 0;">Ecommerce</button></li>
+                <li><button class="btn btn-outline-info" style="border: 0;">Staff Management</button></li>
+                <li><button class="btn btn-outline-info" style="border: 0;">Stored Value Cards</button></li>
+                <li><button class="btn btn-outline-info" style="border: 0;">Member</button></li>
+                <li><button class="btn btn-outline-info" style="border: 0;">Transaction</button></li>
+                <li><button class="btn btn-outline-info" style="border: 0;">Product</button></li>
+                <li><button class="btn btn-outline-info" style="border: 0;">Shipment</button></li>
+                <li><button class="btn btn-outline-info" style="border: 0;">Report</button></li>
+            </ul>
+        </div>
+        <div class="col-lg-9 col-12 featurepage-detail">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Features Overview</h5>
+                            <ul class="pl-3 text-muted">
+                                <li>เราเขียนและพัฒนาซอร์พแวร์ด้วยตัวเอง</li>  
+                                <li>เราสามารถสร้างคุณสมบัติเฉพาะตามที่คุณต้องการได้</li>
+                                <li>ภาพรวมคุณสมบัติต่างๆ คลิ๊ก<br><a href="#" style="color: gray;">คู่มือการใช้งาน</a></li>
+                            </ul>   
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Point of Sale</h5>
+                            <ul class="pl-3 text-muted">
+                                <li>ระบบอัจฉรยิยะที่ช่วยบริหารจัดการหน้าร้านค้า</li>
+                                <li>ไม่จำกัดจำนวนแอดมินพร้อมการกำหนดสิทธิ์การใช้งาน</li>
+                                <li>ระบบเช็คธุรกรรมรายการสั่งซื้อและยอดขาย real time</li>
+                                <li>ระบบเช็คพฤติกรรมและยอดขายของพนักงาน</li>
+                                <li>ระบบแบ่งตัดแบ่งขายตามน้ำหนัก ไม่จำเป็นต้องเป็นชิ้น</li>
+                                <li>ระบบไม่จำกัดสาขา ระบบpre-order</li>
+                                <li>ระบบคืน/เปลี่ยนสินค้า ยกเลิกธุรกรรม</li>
+                            </ul>
+                            <div class="text-right">
+                                <a href="#" class="btn btn-primary">ขึ้น</a>
+                                <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Inventory Management</h5>
+                            <ul class="pl-3 text-muted">
+                                <li>การจัดการสินค้าคงคลัง</li>
+                                <li>สามารถตรวจสอบ เช็ควัน ควบคุมจำนวนสินค้าเข้า - ออก</li>
+                                <li>กำหนดชั้น จุด สถานที่ สาขาที่วางสินค้า coming soon</li>
+                                <li>บันทึกการเคลื่อนย้ายสินค้าและสถานะสินค้า</li>
+                                <li>ระบบเช็ค / แจ้งเตือนสินค้าจะขาดหรือหมดอายุ</li>
+                                <li>ฟังค์ชั่นปฎิทินแสดงวันหมดอายุสินค้า อ่านเพิ่ม</li>
+                                <li>ระบบเช็คสถานะสินค้า</li>
+                            </ul>
+                            <div class="text-right">
+                                <a href="#" class="btn btn-primary">ขึ้น</a>
+                                <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Member</h5>
+                            <ul class="pl-3 text-muted">
+                                <li>สมาชิก</li>
+                                <li>ระบบจัดเก็บข้อมูลส่วนตัวของลูกค้า เพิ่ม / แก้ไขข้อมูลได้</li>
+                                <li>ระบบราคาขายที่ไม่เท่ากันแล้วแต่ระดับของสมาชิก</li>
+                                <li>ระบบเก็บรายชื่อสมาชิกยอดเยี่ยม</li>
+                                <li>ระบบไม่จำกัดจำนวนสมาชิก</li>
+                                <li>ระบบอัพเกรดระดับสมาชิกได้</li>
+                            </ul>
+                            <div class="text-right">
+                                <a href="#" class="btn btn-primary">ขึ้น</a>
+                                <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Transaction</h5>
+                        <ul class="pl-3 text-muted">
+                            <li>ธุรกรรมการซื้อขาย</li>
+                            <li>ระบบเช็คธุรกรรมรายการการสั่งซื้อและยอดขาย real time</li>
+                            <li>ระบบเช็คยอดขายแต่ละจุดขายแต่ละสาขาทั่วประเทศได้</li>
+                            <li>ระบบเช็คว่าธุกรรมนั้นขายอะไรไปบ้าง</li>
+                            <li>เช็คธุรกรรมที่มีการเปลี่ยน / คืนสินค้า</li>
+                            <li>ระบบเช็คประเภทการจ่ายเงิน</li>
+                            <li>เช็คธุรกรรมที่มีการยกเลิก</li>
+                        </ul>
+                        <div class="text-right">
+                            <a href="#" class="btn btn-primary">ขึ้น</a>
+                            <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Product</h5>
+                        <ul class="pl-3 text-muted">
+                            <li>การจัดส่งสินค้า</li>
+                            <li>ระบบคิวในการจัดส่งสินค้า</li>
+                            <li>ระบบตรวจสอบสถานะสินค้า</li>
+                            <li>ระบบการเก็บประวัติข้อมูลการจัดส่ง</li>
+                        </ul>
+                        <div class="text-right">
+                            <a href="#" class="btn btn-primary">ขึ้น</a>
+                            <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Report</h5>
+                        <ul class="pl-3 text-muted">
+                            <li>รายงาน</li>
+                            <li>รายงานสินค้าคงคลัง</li>
+                            <li>รายงานผลประกอบการ</li>
+                            <li>รายงานสิทธิ์การใช้งาน</li>
+                            <li>รายงานธุรกรรมการซื้อขายของสมาชิกแต่ละท่าน</li>
+                            <li>รายงานสินค้า เช่น หมวดหมู่ประเภทยอดขาย</li>
+                            <li>รายงานธุรกรรมการซื้อขายแต่ละรายการ</li>
+
+                        </ul>
+                        <div class="text-right">
+                            <a href="#" class="btn btn-primary">ขึ้น</a>
+                            <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- right side -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce</h5>
+                            <ul class="pl-3 text-muted">
+                                <li>ระบบไม่จำกัดจำนวนแอดมินพร้อมการกำหนดสิทธิ์การใช้งาน</li>
+                                <li>ระบบเช็คธุรกรรมรายการการสั่งซื้อและยอดขาย real time</li>
+                                <li>ระบบเพิ่ม ลด แก้ไขรายละเอียดสินค้า เช็คสินค้ายอดนิยม</li>
+                                <li>ระบบการจ่ายเงินและการจัดส่ง</li>
+                                <li>ระบบสมาชิกและระบบโปรโมชั่น</li>
+                                <li>ระบบ pre order</li>
+                            </ul>
+                            <div class="text-right">
+                                <a href="#" class="btn btn-primary">ขึ้น</a>
+                                <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Customer Management</h5>
+                            <ul class="pl-3 text-muted">
+                                <li>การจัดการบริหารลูกค้า</li>
+                                <li>ระบบจัดเก็บประวัติการสั่งซื้อของลูกค้า</li>
+                                <li>ระบบจัดเก็บข้อมูลส่วนตัวของลูกค้า เพิ่ม / แก้ไขข้อมูลได้</li>
+                                <li>ระบบแสดงสินค้ายอดนิยม</li>
+                                <li>ระบบแสดงช่วงเวลาที่ขายดีลูกค้าเข้าใช้บริการ</li>
+                                <li>ระบบไม่จำกัดจำนวนลูกค้า</li>
+                            </ul>
+                            <div class="text-right">
+                                <a href="#" class="btn btn-primary">ขึ้น</a>
+                                <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Staff Management</h5>
+                            <ul class="pl-3 text-muted">
+                                <li>การจัดการบริหารพนักงาน</li>
+                                <li>ระบบไม่จำกัดจำนวนพนักงานพร้อมการกำหนดสิทธิ์การใช้งาน</li>
+                                <li>ระบบเช็คยอดขาย ผลงานของพนักงานแต่ละคน</li>
+                                <li>ระบบเช็คช่วงเวลาการทำงานของพนักงาน</li>
+                                <li>ระบบจัดลำดับพนักงานดีเด่นตามยอดขาย</li>
+                                <li>ระบบเช็คพนักงานทั้งในอดีตถึงปัจจุบัน</li>
+                            </ul>
+                            <div class="text-right">
+                                <a href="#" class="btn btn-primary">ขึ้น</a>
+                                <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Stored Value Cards</h5>
+                            <ul class="pl-3 text-muted">
+                                <li>บัตรกำนัล</li>
+                                <li>สามารถใช้กับ RFID Card บาร์โค้ท หรือบัตรแถบแม่เหล็ก</li>
+                                <li>ระบบเก็บเงินก่อนล่วงหน้าและเติมเงิน</li>
+                                <li>ระบบแสดงสินค้าหรือบริการยอดนิยม</li>
+                                <li>ระบบเก็บประวัติการสั่งซื้อของลูกค้า</li>
+                                <li>ระบบเก็บข้อมูลของสมาชิก</li>
+                            </ul>
+                            <div class="text-right">
+                                <a href="#" class="btn btn-primary">ขึ้น</a>
+                                <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Product</h5>
+                            <ul class="pl-3 text-muted">
+                                <li>สินค้า</li>
+                                <li>ระบบไม่จำกัดจำนวนสินค้า</li>
+                                <li>ระบบจัดเก็บข้อมูลส่วนตัวของสินค้า เพิ่ม / แก้ไขข้อมูลได้</li>
+                                <li>ระบบการแบ่งประเภทและหมวดหมู่ของสินค้า</li>
+                                <li>ระบบแจ้งจำนวนสินค้าเสีย สูญหาย</li>
+                                <li>ระบบสินค้ารวม / ไม่รวมภาษีมูลค่าเพิ่ม</li>
+                                <li>สามารถแปลงไฟล์เป็น CSV Excel และ PDF</li>
+                            </ul>
+                            <div class="text-right">
+                                <a href="#" class="btn btn-primary">ขึ้น</a>
+                                <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+{% endblock%}

@@ -1,0 +1,35 @@
+/* section footer */
+
+.semi-footer{
+    border: 5px solid rgb(90, 169, 201);
+}
+
+
+
+footer li, footer h4{
+    font-size: 12px;
+ }
+
+footer ul{
+    line-height: 5px;
+ }
+
+footer a,footer{
+    color:grey;
+ }
+
+ @media (max-width: 375px){
+    .left-right h1{
+        font-size: 25px;
+    }
+    .left-right p{
+        font-size: 14px;
+    }
+    
+
+}
+
+
+.footer hr{
+    border: 2px solid #eee;
+}

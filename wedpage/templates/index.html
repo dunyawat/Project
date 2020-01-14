@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block page %}
+
+<a target ="_blank" href="{% url 'benefits' %}" ><button class="btn btn-success">benefits</button></a>
+<a target ="_blank" href="{% url 'card' %}" ><button class="btn btn-success">card</button></a>
+<a target ="_blank" href="{% url 'customer-management' %}" ><button class="btn btn-success">customer-management</button></a>
+<a target ="_blank" href="{% url 'featurepage' %}" ><button class="btn btn-success">featurepage</button></a>
+<a target ="_blank" href="{% url 'login' %}" ><button class="btn btn-success">login</button></a>
+<a target ="_blank" href="{% url 'vlog' %}" ><button class="btn btn-success">vlog</button></a>
+<a target ="_blank" href="{% url 'contactus' %}" ><button class="btn btn-success">contactus</button></a>
+<a target ="_blank" href="{% url 'ecommerce' %}" ><button class="btn btn-success">ecommerce</button></a>
+<a target ="_blank" href="{% url 'stored-value-cards' %}" ><button class="btn btn-success">stored-value-cards</button></a>
+<a target ="_blank" href="{% url 'POS3' %}" ><button class="btn btn-success">POS3</button></a>
+<a target ="_blank" href="{% url 'inventory' %}" ><button class="btn btn-success">inventory</button></a>
+<a target ="_blank" href="{% url 'home' %}" ><button class="btn btn-success">Home</button></a>
+<a target ="_blank" href="{% url 'staff-management' %}" ><button class="btn btn-success">staff-management</button></a>
+
+
+{% endblock%}

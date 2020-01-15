@@ -44,5 +44,8 @@ def inventory(request):
 def StaffManagement(request):
     return render(request,'staff-management.html')
 
+def test(request):
+    return render(request,'test.html')
+
 
     

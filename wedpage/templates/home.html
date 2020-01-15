@@ -35,43 +35,60 @@
     <img id="img-area" src="../static/img/card-hero.jpg" width="200px" height="200px">
 </div>
 
-<div style="background-color: #1C9BDA;">
-<div class="container text-light">
-    <div class="row">
-        <div class="col-lg-3">
-           <button class="btn btn-outline-light" style="border: 0;" onclick="w()">หน้าร้านขายปีก</button>
-        </div>
-        <div class="col-lg-3">
-            <button class="btn btn-outline-light" style="border: 0;" onclick="x()">อีคอมเมิรช์</button>
-        </div>
-        <div class="col-lg-3">
-            <button class="btn btn-outline-light" style="border: 0;" onclick="y()">สินค้าคงคลัง</button>
-        </div>
-        <div class="col-lg-3">
-            <button class="btn btn-outline-light" style="border: 0;" onclick="z()">ระบบสมาชิก</button>
+<div class="row">
+    <div class="col-lg-12 col-6 pr-0 text-center text-lg-left">
+        <div style="background-color: #1C9BDA;">
+            <div class="container text-light">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <button id="textChange1" class="btn btn-outline-light" style="border: 0;" onclick="w()">หน้าร้านขายปีก</button>
+                    </div>
+                    <div class="col-lg-3">
+                        <button id="textChange2" class="btn btn-outline-light" style="border: 0;" onclick="x()">อีคอมเมิรช์</button>
+                    </div>
+                    <div class="col-lg-3">
+                        <button id="textChange3" class="btn btn-outline-light" style="border: 0;" onclick="y()">สินค้าคงคลัง</button>
+                    </div>
+                    <div class="col-lg-3">
+                        <button id="textChange4" class="btn btn-outline-light" style="border: 0;" onclick="z()">ระบบสมาชิก</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <div class="col-lg-12 d-none d-lg-block" style="background-color: #04608D;">
+        <div class="container text-light text-muted">
+            <div class="row">
+                <div class="col-lg-3">
+                    ใช้งานง่าย ไว เสถียรใช้ได้ทั้งออนไลน์และออฟไลน์ปลอดภัยบน Cloud Base
+                    <div><a href="#">อ่านเพิ่ม</a></div>
+                </div>
+                <div class="col-lg-3">
+                    ช่องทางที่ฮิตที่สุดในเวลานี้ ระบบทำงานตลอดเวลา ซื้อขายที่ไหน เมื่อไหร่ก็ได้
+                    <div><a href="#">อ่านเพิ่ม</a></div>
+                </div>
+                <div class="col-lg-3">
+                    ควบคุมสินค้าเข้าออก ฟังก์ชั่นปฎิทินแจ้งเตือนสินค้าที่กำลังจะหมดอายุ
+                    <div><a href="#">อ่านเพิ่ม</a></div>
+                </div>
+                <div class="col-lg-3">
+                    เก็บข้อมูลเพื่อเพิ่มยอดขาย มีระบบ AI เสนอสิ้นค้าและสามารถเติมเงินได้
+                    <div><a href="#">อ่านเพิ่ม</a></div>
+                </div>
+            </div>
         </div>
     </div>
+
+    <div class="col-6 d-lg-none d-block pr-0" style="background-color: #04608D;">
+        <div class="container text-light text-muted">
+            <div id="divtextChange" class="px-5 py-2">
+                ใช้งานง่าย ไว เสถียรใช้ได้ทั้งออนไลน์และออฟไลน์ปลอดภัยบน Cloud Base
+            </div>
+        </div>
     </div>
 </div>
 
-<div style="background-color: #04608D;">
-    <div class="container text-light text-muted">
-        <div class="row">
-            <div class="col-lg-3">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima quisquam unde velit explicabo, tenetur incidunt eius. At atque et reprehenderit blanditiis fugit dolores debitis soluta! Velit laudantium veritatis labore ducimus.
-            </div>
-            <div class="col-lg-3">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi repellendus voluptate, obcaecati fuga, voluptas aut aperiam sapiente iusto, iure eos nihil. Totam, repudiandae! Veritatis itaque, hic odio placeat aspernatur commodi!
-            </div>
-            <div class="col-lg-3">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum vel quo amet obcaecati voluptatem, assumenda voluptates molestiae nihil iusto consequuntur! Animi assumenda optio illo ex, at enim tempore ducimus odit.
-            </div>
-            <div class="col-lg-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur adipisci laboriosam incidunt, voluptatem possimus tempora voluptate iure? Quae, fuga voluptate, obcaecati sequi ex impedit asperiores tenetur facere enim numquam ut.
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <div class="bg-light" style="height: 500px;">
@@ -153,21 +170,29 @@
 
 
 <script>
-    var img = document.getElementById("img-area")
+    function changeSlide(imgSrc, html) {
+        document.getElementById("img-area").src = imgSrc;
+        document.getElementById("divtextChange").innerHTML = html;
+    }
+
     function w(){
-        img.src='../static/img/card-hero.jpg';
+        changeSlide('../static/img/card-hero.jpg','ใช้งานง่าย ไว เสถียรใช้ได้ทั้งออนไลน์และออฟไลน์ปลอดภัยบน Cloud Base');
+
     }
     function x(){
-        img.src='../static/img/customer-management-hero.jpg';
+        changeSlide('../static/img/customer-management-hero.jpg', 'ช่องทางที่ฮิตที่สุดในเวลานี้ ระบบทำงานตลอดเวลา ซื้อขายที่ไหน เมื่อไหร่ก็ได้');
     }
 
     function y(){
-        img.src='../static/img/hero1.jpg';
-    } 
+        changeSlide('../static/img/hero1.jpg', 'ควบคุมสินค้าเข้าออก ฟังก์ชั่นปฎิทินแจ้งเตือนสินค้าที่กำลังจะหมดอายุ');
+        
+    }
 
     function z(){
-        img.src='../static/img/inventory.jpg';
-    } 
+        changeSlide('../static/img/inventory.jpg', 'เก็บข้อมูลเพื่อเพิ่มยอดขาย มีระบบ AI เสนอสิ้นค้าและสามารถเติมเงินได้');
+        
+    }  
 </script>
+
 
 {% endblock%}

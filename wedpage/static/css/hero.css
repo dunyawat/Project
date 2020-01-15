@@ -14,7 +14,7 @@
     width: 150px; height:50px;
 }
 
-.hero img{
+/* .hero img{
     width: 600px;
     margin:auto; 
     display:block; 
@@ -38,7 +38,7 @@
     }
  
 
- }
+ } */
   
  @media (max-width: 960px){
     .hero{
@@ -68,7 +68,7 @@
 }
 
 .card-hero p{
-    font-size: 24px;
+    font-size: 20px;
 }
 @media (max-width: 1024px){
     .card-hero h1{

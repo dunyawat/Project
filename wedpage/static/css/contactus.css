@@ -1,0 +1,42 @@
+.contactus-img{
+    position:relative;
+}
+
+.contactus-img img{
+    height: 550px; 
+    position:absolute;right:-200px;bottom:0px;
+}
+
+@media (max-width: 1024px){
+    .contactus-img img{
+        height: 500px; 
+        position:absolute;right:-200px;bottom:0px;
+    }
+ }
+
+@media (max-width: 812px){
+    .contactus-img img{
+        height: 100%;
+        position:unset;
+        width: 80%;
+    }
+ }
+
+
+.contactus-head{
+    font-size: 70px;
+}
+
+@media (max-width: 414px){
+    .contactus-head{ 
+        font-size: 50px;
+    }
+    
+    .contactus-title{
+        font-size: 20px;
+    }
+
+    .contactus-detail{
+        font-size: 14px;
+    }
+ }

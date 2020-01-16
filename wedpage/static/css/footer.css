@@ -32,9 +32,18 @@
 
 
     .semi-footer-detail strong{
-        font-size: 12px;
+        font-size: 16px;
     }
  }
+
+ @media (max-width: 375px){
+
+    .semi-footer-detail strong{
+        font-size: 14px;
+    }
+ }
+
+ 
 
  @media (max-width: 320px){
 
@@ -43,23 +52,23 @@
     }
 
     .semi-footer-detail strong{
-        font-size: 10px;
+        font-size: 11px;
     }
  }
 
 .semi-footer button{
-    width: 200px;
-    height: 50px;
-    font-size: 15px;
+    width: 190px; 
+    height:40px;
+    font-size:18px ;
     font-weight: bold;
 }
 
 @media (max-width: 1080px){
 
     .semi-footer button{
-        width: 150px;
-        height: 50px;
-        font-size: 15px;
+        width: 170px;
+        height: 40px;
+        font-size: 18px;
         font-weight: bold;
     }
 
@@ -68,15 +77,12 @@
 @media (max-width: 414px){
 
     .semi-footer button{
-        width: 100px;
-        height: 40px;
-        font-size: 12px;
+        width: 120px; 
+        height:30px;
+        font-size:14px ;
         font-weight: bold;
     }
 }
-
-
-
 
 
 
@@ -84,23 +90,52 @@ footer li, footer h4{
     font-size: 12px;
  }
 
-footer ul{
-    line-height: 5px;
+@media (max-width: 812px){
+    footer img{
+        margin-left: -10px;
+    }
+
+    footer h4{
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    
+    footer li{
+        font-size: 18px;
+    }
+}
+@media (max-width: 414px){
+    footer img{
+        width:250px ;
+    } 
+}
+
+@media (max-width: 320px){
+    footer img{
+        width:200px ;
+    } 
+
+    footer h4{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    
+    footer li{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+ footer .nav-link{
+    padding: .15rem 1rem;
  }
 
 footer a,footer{
     color:grey;
  }
-
- @media (max-width: 375px){
-    .left-right h1{
-        font-size: 25px;
-    }
-    .left-right p{
-        font-size: 14px;
-    }
-}
-
 
 footer .btn{
     width: 80%;
@@ -135,5 +170,5 @@ footer .btn{
 }
 
 .footer hr{
-    border: 2px solid gray;
+    border: 3px solid gray;
 }

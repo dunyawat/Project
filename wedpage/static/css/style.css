@@ -1,9 +1,6 @@
 
 
 /* section left-right */
-.left-right{
-    height: 500px;
- }
 
 .left-right .photo{
     background-size: cover; background-position: center;
@@ -44,10 +41,28 @@
     font-size: 40px;
 }
 
-@media (max-width: 576px){
+@media (max-width: 1920px){
     .card-choice{
-       font-size: 14px;
-       
+       font-size: 17px;
+    }
+}
+
+
+@media (max-width: 1024px){
+    .card-choice{
+       font-size: 14px;  
+    }
+}
+
+@media (max-width: 812px){
+    .card-choice{
+       font-size: 22px;  
+    }
+}
+
+@media (max-width: 414px){
+    .card-choice{
+       font-size: 16px;  
     }
 }
 

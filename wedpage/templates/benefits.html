@@ -3,17 +3,17 @@
 
 {% block page %}
     <!-- section hero -->
-    <div class="hero">
+    <div class="hero benefits-hero">
         <div class="container py-5">
             <div class="row">
-                <div class="col-lg-6 text-center align-self-center order-lg-1 order-sm-2 order-2">
+                <div class="col-lg-6 text-center align-self-center order-lg-1 order-sm-2 order-2 hero-text">
                     <h1>Salebox</h1>
                     <p>เหตุผลที่ต้องมี<br>ระบบบริหารร้านค้าอัจฉริยะ</p>
                     <button class="btn btn-light mr-sm-2 btn-sm" type="submit">Start Now</button>
                     <button class="btn btn-outline-light my-2 my-sm-0 btn-sm" type="submit">Contact Sales</button>
                 </div>
                 <div class="col-lg-6 order-lg-2 order-sm-1 order-1">
-                    <img src="{%static 'img/hero1.jpg' %}">
+                  <img src="{%static 'img/benefits/hero-benefits.png' %}" alt="">
                 </div>
             </div>
         </div>
@@ -22,22 +22,28 @@
     <!-- section left-right -->
     <div class="container ">
         <div class="row my-5 left-right px-sm-2">
-          <div class="col-12 col-lg-6 order-lg-2 bg-primary photo" style="background-image:url('static/img/right1.jpg');"></div>   
+          <div class="col-12 col-lg-6 order-lg-2 photo text-center">
+            <img src="{%static 'img/benefits/benefits1.png' %}" width="600px" alt="">
+          </div>   
           <div class="col-12 col-lg-6 order-lg-1 text-right  align-self-center text">
             <h1>ทำงานจากที่ไหน เมื่อไหร่ก็ได้</h1>
             <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio libero inventore tempore commodi nulla qui a corrupti, pariatur asperiores atque voluptate et dolore ipsum facere non numquam quia soluta! Ipsam.</p>
           </div>
         </div>      
     
-        <div class="row my-5 left-right" style="height: 500px;">
-          <div class="col-12 col-lg-6 order-lg-1 bg-primary photo" style="background-image:url('static/img/left1.jpg');" ></div>
+        <div class="row my-5 left-right">
+          <div class="col-12 col-lg-6 order-lg-1 photo">
+            <img src="{%static 'img/benefits/benefits2.png' %}" width="550px" alt="">
+          </div>
           <div class="col-12 col-lg-6 order-lg-2 text-left  align-self-center  text"><h1>ระบบใช้งานง่าย ใช้ได้ไว เสถียร และปลอดภัย</h1>
             <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio libero inventore tempore commodi nulla qui a corrupti, pariatur asperiores atque voluptate et dolore ipsum facere non numquam quia soluta! Ipsam.</p>
         </div>
         </div>
         
-        <div class="row my-5 left-right" style="height: 500px;">
-          <div class="col-12 col-lg-6 order-lg-2 bg-primary photo" style="background-image:url('static/img/right2.jpg');"></div>   
+        <div class="row my-5 left-right"">
+          <div class="col-12 col-lg-6 order-lg-2 photo">
+            <img src="{%static 'img/benefits/benefits3.png' %}" width="550px" alt="">
+          </div>   
           <div class="col-12 col-lg-6 order-lg-1 text-right  align-self-center  text"><h1>ระบบหลังบ้านที่ช่วยควบคุมให้ธุรกิจเติบโตอย่างง่ายดาย</h1>
             <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio libero inventore tempore commodi nulla qui a corrupti, pariatur asperiores atque voluptate et dolore ipsum facere non numquam quia soluta! Ipsam.</p></div>
         </div>        

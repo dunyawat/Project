@@ -2,29 +2,151 @@
 
 /* section left-right */
 
-.left-right .photo{
-    background-size: cover; background-position: center;
- }
+@media (min-width: 1024px){
+    .right1 img,.left img,.right2 img{
+        width: 450px;
+    }  
+}
 
- @media (max-width: 960px){
-    .left-right .text{
-        text-align: center !important;
+@media (min-width: 1080px){
+    .right1 img ,.left img,.right2 img{
+        width: 500px;
+    }  
+
+    .left .left-right-text{
+        margin-left: 65px;
+ 
     }
-    .left-right h1{
-        font-size: 40px;
+}
+
+@media (min-width: 1366px){
+
+    .left .left-right-text{
+        margin-left: 20px;
+ 
+    }   
+}
+
+@media (min-width: 1920px){
+    .right1 img ,.left img ,.right2 img{
+        width: 600px;
     }
-    
+
+    .right1 .left-right-text,.right2 .left-right-text{
+        margin-right: 50px;
+    }
+
+    .left .left-right-text{
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 812px){
+    .right1 img,.left img,.right2 img{
+        width: 550px;
+    }  
+
+    .right1 .left-right-text,.right2 .left-right-text, .left .left-right-text{
+        margin-top: 20px;
+    }
+
+    .left-right-text p{
+        padding: 0 140px 0 140px;
+    }
 
 }
+
+@media (max-width: 736px){
+    .right1 img,.left img,.right2 img{
+        width: 500px;
+    }  
+
+    .right1 .left-right-text,.right2 .left-right-text, .left .left-right-text{
+        margin-top: 20px;
+    }
+
+    .left-right-text p{
+        padding: 0 120px 0 120px;
+    }
+
+}
+
+@media (max-width: 414px){
+    .right1 img,.left img,.right2 img{
+        width: 300px;
+    }  
+
+    .right1 .left-right-text,.right2 .left-right-text, .left .left-right-text{
+        margin-top: 20px;
+    }
+
+    .left-right-text p{
+        padding: 0 50px 0 50px;
+    }
+
+}
+
+@media (max-width: 325px){
+    .right1 img,.left img,.right2 img{
+        width: 250px;
+    }  
+
+    .right1 .left-right-text,.right2 .left-right-text, .left .left-right-text{
+        margin-top: 20px;
+    }
+
+    .left-right-text p{
+        padding: 0 40px 0 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1080px){
+    .left-right-text h1{
+        font-size: 35px;
+    }
+}
+
+
+ @media (max-width: 960px){
+    .left-right-text{
+        text-align: center !important;
+    }
+    .left-right-text h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 414px){
+    
+    .left-right-text h1{
+        font-size: 29px;
+    }
+
+}
+
  @media (max-width: 375px){
-    .left-right h1{
+    
+    .left-right-text h1{
         font-size: 25px;
     }
     .left-right p{
         font-size: 14px;
     }
-    
+}
 
+@media (max-width: 325px){
+    
+    .left-right-text h1{
+        font-size: 22px;
+    }
 }
 
 
@@ -41,38 +163,58 @@
     font-size: 40px;
 }
 
+
 @media (max-width: 1920px){
-    .card-choice{
+    .choice-detail{
        font-size: 17px;
+    }
+    .correct img{
+        margin-left: -5px;
     }
 }
 
 
-@media (max-width: 1024px){
-    .card-choice{
+@media (max-width: 1080px){
+    .choice-detail{
        font-size: 14px;  
+    }
+    .correct img{
+        margin-left: -10px;
+    }
+    .choice-card{
+        margin-bottom: -20px;
     }
 }
 
 @media (max-width: 812px){
-    .card-choice{
+    .choice-detail{
        font-size: 22px;  
+    }
+
+    .choice-card{
+        margin-bottom: -20px;
+    }
+
+    .correct img{
+        margin-left:unset;
     }
 }
 
 @media (max-width: 414px){
-    .card-choice{
+    .choice-detail{
        font-size: 16px;  
     }
+
+    .choice-card{
+        margin-bottom: -30px;
+    }
 }
-
-
 
 /* ------------------------------------------------------section customer-management----------------------------------------------------*/
     
 
 @media (min-width: 1024px){
-    .jumbotron-customer-management .card-choice{
+    .jumbotron-customer-management .choice-detail{
         text-align: right;
         
     }
@@ -104,6 +246,26 @@
     width: 250px;
     padding-bottom: 10px;
     
+}
+
+
+
+/* ----------------------------------------------HOME------------------------------------------------------- */
+
+.WhoAreWE{
+    background: linear-gradient(to right, #04608D 0%,#04608D 50%, #eee 50%, #eee 100%);
+}
+
+
+@media (max-width: 812px){
+    .WhoAreWE .detail{
+        background-color: #04608D;
+    }
+
+    .WhoAreWE .spon{
+        background-color: #eee;
+    }
+}
 }
 
 

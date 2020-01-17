@@ -524,3 +524,41 @@
         margin-bottom: 2px;
     }
  }
+
+
+
+ /* ---------------------------------------feature-page------------------------------------------ */
+
+
+ @media (min-width: 1920px){
+
+    .feature-page-hero img{
+        width: 1317px;
+        margin-top: -72px;
+        display: unset;
+        margin-left: -78px;
+    }
+
+}
+
+
+
+
+.feature-page-hero .hero-text h1{
+    font-size: 76px;
+}
+    
+.feature-page-hero .hero-text p{
+    font-size: 32px;
+}
+
+/* 
+@media (min-width: 1920px){
+
+    .feature-page-hero {
+        width: 1317px;
+        margin-top: -72px;
+        display: unset;
+    }
+
+} */

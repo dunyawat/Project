@@ -562,3 +562,23 @@
     }
 
 } */
+
+
+/* -------------------------------------------------------------------Ecommerce----------------------------------------------------- */
+
+
+
+.ecommerce-hero{
+    background: linear-gradient(to bottom, #1C98D7 0%,#1C98D7 70%, white 30%,white 100%) !important;
+}
+
+.ecommerce-hero .hero-text{
+    z-index: 1;
+}
+
+
+@media (max-width: 1080px){
+    .ecommerce-hero .btn{
+        width: 145px;
+    }
+}

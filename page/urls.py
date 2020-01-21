@@ -34,4 +34,6 @@ urlpatterns = [
     url(r'^inventory',views.inventory,name='inventory'),
     url(r'^staff-management',views.StaffManagement ,name='staff-management'),
     url(r'^shipping',views.shipping ,name='shipping'),
+    url(r'^overview',views.Overview ,name='overview'),
+
 ]

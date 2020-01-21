@@ -25,7 +25,7 @@
             <h1>ระบบบริหารร้านค้าอัจฉริยะที่เลือกได้ตามสไตล์คุณ</h1>
             <span>ทางเลือกใหม่ในการจัดหน้าร้าน หลังร้าน และอีคอมเมิร์ชที่เหมาะกับคุณที่สุด <br></span>
             <button class="btn btn-info mr-sm-2 btn-sm my-md-2" type="submit">Start Now</button>
-            <button class="btn btn-outline-info my-2 my-sm-0 btn-sm" type="submit">Contact Sales</button>
+            <a href="{% url 'contactus' %}" ><button class="btn btn-outline-info my-2 my-sm-0 btn-sm" type="submit">Contact Sales</button></a>
         </div>
     </div>
 </div>
@@ -66,15 +66,15 @@
                 </div>
                 <div class="col-lg-3 hero-home-detail">
                     ช่องทางที่ฮิตที่สุดในเวลานี้ ระบบทำงานตลอดเวลา ซื้อขายที่ไหน เมื่อไหร่ก็ได้
-                    <div><a href="#" class="text-muted">อ่านเพิ่ม <i class="fa fa-caret-right"></i></a></div>
+                    <div><a href="{% url 'ecommerce' %}" class="text-muted">อ่านเพิ่ม <i class="fa fa-caret-right"></i></a></div>
                 </div>
                 <div class="col-lg-3 hero-home-detail">
                     ควบคุมสินค้าเข้าออก ฟังก์ชั่นปฎิทินแจ้งเตือนสินค้าที่กำลังจะหมดอายุ
-                    <div><a href="#" class="text-muted">อ่านเพิ่ม <i class="fa fa-caret-right"></i></a></div>
+                    <div><a href="{% url 'inventory' %}" class="text-muted">อ่านเพิ่ม <i class="fa fa-caret-right"></i></a></div>
                 </div>
                 <div class="col-lg-3 hero-home-detail">
                     เก็บข้อมูลเพื่อเพิ่มยอดขาย มีระบบ AI เสนอสิ้นค้าและสามารถเติมเงินได้
-                    <div><a href="#" class="text-muted">อ่านเพิ่ม <i class="fa fa-caret-right"></i></a></div>
+                    <div><a href="{% url 'card' %}" class="text-muted">อ่านเพิ่ม <i class="fa fa-caret-right"></i></a></div>
                 </div>
             </div>
         </div>

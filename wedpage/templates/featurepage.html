@@ -20,9 +20,9 @@
 
 
 <!-- / -->
-<div class="container">
+<div class="container mt-lg-3">
     <div class="row">
-        <div class="d-none d-lg-block col-lg-3">
+        <div class="d-none d-lg-block col-lg-3" id="menu">
             <ul style="list-style-type:none;">
                 <li><button class="btn btn-outline-info" style="border: 0;"><a href="#FeaturesOverview">Features Overview</a></button></li>
                 <li><button class="btn btn-outline-info" style="border: 0;"><a href="#PointofSale">Point of Sale</a></button></li>
@@ -64,8 +64,8 @@
                                 <li>ระบบไม่จำกัดสาขา ระบบpre-order</li>
                                 <li>ระบบคืน/เปลี่ยนสินค้า ยกเลิกธุรกรรม</li>
                             </ul>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-primary"><i class="fa fa-angle-up"></i></a>
+                            <div class="text-right more">
+                                <a href="#menu" class="d-lg-inline d-none btn btn-primary"><i class="fa fa-angle-up"></i></a>
                                 <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
                             </div>
                         </div>
@@ -82,9 +82,9 @@
                                 <li>ฟังค์ชั่นปฎิทินแสดงวันหมดอายุสินค้า อ่านเพิ่ม</li>
                                 <li>ระบบเช็คสถานะสินค้า</li>
                             </ul>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-primary"><i class="fa fa-angle-up"></i></a>
-                                <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                            <div class="text-right more">
+                                <a href="#menu" class="d-lg-inline d-none btn btn-primary"><i class="fa fa-angle-up"></i></a>
+                                <a href="{% url 'inventory' %}" class="btn btn-primary">อ่านเพิ่มเติม</a>
                             </div>
                         </div>
                     </div>
@@ -99,9 +99,9 @@
                                 <li>ระบบไม่จำกัดจำนวนสมาชิก</li>
                                 <li>ระบบอัพเกรดระดับสมาชิกได้</li>
                             </ul>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-primary"><i class="fa fa-angle-up"></i></a>
-                                <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                            <div class="text-right more">
+                                <a href="#menu" class="d-lg-inline d-none btn btn-primary"><i class="fa fa-angle-up"></i></a>
+                                <a href="{% url 'card' %}" class="btn btn-primary">อ่านเพิ่มเติม</a>
                             </div>
                         </div>
                     </div>
@@ -118,8 +118,8 @@
                             <li>ระบบเช็คประเภทการจ่ายเงิน</li>
                             <li>เช็คธุรกรรมที่มีการยกเลิก</li>
                         </ul>
-                        <div class="text-right">
-                            <a href="#" class="btn btn-primary"><i class="fa fa-angle-up"></i></a>
+                        <div class="text-right more">
+                            <a href="#menu" class="d-lg-inline d-none btn btn-primary"><i class="fa fa-angle-up"></i></a>
                             <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
                         </div>
                     </div>
@@ -133,8 +133,8 @@
                             <li>ระบบตรวจสอบสถานะสินค้า</li>
                             <li>ระบบการเก็บประวัติข้อมูลการจัดส่ง</li>
                         </ul>
-                        <div class="text-right">
-                            <a href="#" class="btn btn-primary"><i class="fa fa-angle-up"></i></a>
+                        <div class="text-right more">
+                            <a href="#menu" class="d-lg-inline d-none btn btn-primary"><i class="fa fa-angle-up"></i></a>
                             <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
                         </div>
                     </div>
@@ -152,8 +152,8 @@
                             <li>รายงานธุรกรรมการซื้อขายแต่ละรายการ</li>
 
                         </ul>
-                        <div class="text-right">
-                            <a href="#" class="btn btn-primary"><i class="fa fa-angle-up"></i></a>
+                        <div class="text-right more">
+                            <a href="#menu" class="d-lg-inline d-none btn btn-primary"><i class="fa fa-angle-up"></i></a>
                             <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
                         </div>
                     </div>
@@ -172,9 +172,9 @@
                                 <li>ระบบสมาชิกและระบบโปรโมชั่น</li>
                                 <li>ระบบ pre order</li>
                             </ul>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-primary"><i class="fa fa-angle-up"></i></a>
-                                <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                            <div class="text-right more">
+                                <a href="#menu" class="d-lg-inline d-none btn btn-primary"><i class="fa fa-angle-up"></i></a>
+                                <a href="{% url 'ecommerce' %}" class="btn btn-primary">อ่านเพิ่มเติม</a>
                             </div>
                         </div>
                     </div>
@@ -189,9 +189,9 @@
                                 <li>ระบบแสดงช่วงเวลาที่ขายดีลูกค้าเข้าใช้บริการ</li>
                                 <li>ระบบไม่จำกัดจำนวนลูกค้า</li>
                             </ul>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-primary"><i class="fa fa-angle-up"></i></a>
-                                <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                            <div class="text-right more">
+                                <a href="#menu" class="d-lg-inline d-none btn btn-primary"><i class="fa fa-angle-up"></i></a>
+                                <a href="{% url 'customer-management' %}" class="btn btn-primary">อ่านเพิ่มเติม</a>
                             </div>
                         </div>
                     </div>
@@ -206,9 +206,9 @@
                                 <li>ระบบจัดลำดับพนักงานดีเด่นตามยอดขาย</li>
                                 <li>ระบบเช็คพนักงานทั้งในอดีตถึงปัจจุบัน</li>
                             </ul>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-primary"><i class="fa fa-angle-up"></i></a>
-                                <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                            <div class="text-right more">
+                                <a href="#menu" class="d-lg-inline d-none btn btn-primary"><i class="fa fa-angle-up"></i></a>
+                                <a href="{% url 'staff-management' %}" class="btn btn-primary">อ่านเพิ่มเติม</a>
                             </div>
                         </div>
                     </div>
@@ -223,9 +223,9 @@
                                 <li>ระบบเก็บประวัติการสั่งซื้อของลูกค้า</li>
                                 <li>ระบบเก็บข้อมูลของสมาชิก</li>
                             </ul>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-primary"><i class="fa fa-angle-up"></i></a>
-                                <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
+                            <div class="text-right more">
+                                <a href="#menu" class="d-lg-inline d-none btn btn-primary"><i class="fa fa-angle-up"></i></a>
+                                <a href="{% url 'stored-value-cards' %}" class="btn btn-primary">อ่านเพิ่มเติม</a>
                             </div>
                         </div>
                     </div>
@@ -241,8 +241,8 @@
                                 <li>ระบบสินค้ารวม / ไม่รวมภาษีมูลค่าเพิ่ม</li>
                                 <li>สามารถแปลงไฟล์เป็น CSV Excel และ PDF</li>
                             </ul>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-primary"><i class="fa fa-angle-up"></i></a>
+                            <div class="text-right more">
+                                <a href="#menu" class="d-lg-inline d-none btn btn-primary"><i class="fa fa-angle-up"></i></a>
                                 <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
                             </div>
                         </div>
@@ -252,5 +252,10 @@
         </div>
     </div>
 </div> 
+
+
+<div class="to-top d-block d-lg-none">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
 
 {% endblock%}

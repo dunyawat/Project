@@ -1,3 +1,19 @@
+/*
+1.left-right
+2.pagecard
+3.customer-management
+4.featurepage
+5.HOME
+6.Ecommerce
+7.Section On to Top
+*/
+
+
+
+
+
+
+
 
 
 /* section left-right */
@@ -248,12 +264,63 @@
     
 }
 
+@media (max-width: 1080px){
 
+    #menu .btn{
+        text-align: left;
+    }
+
+
+}
+
+@media (max-width: 736px){
+
+    .featurepage-detail .more{
+        padding-right: 182px;
+    }
+}
+
+@media (max-width: 414px){
+
+    .featurepage-detail .more{
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 320px){
+
+    .featurepage-detail li{
+        font-size: 13px;
+        padding-right: 20px;
+    }
+}
 
 
 html{
     scroll-behavior: smooth;
 }
+
+/* --------=--------Section On to Top----------*/
+.to-top{
+    position: fixed; 
+    right: 2%;
+    bottom: 2%;
+    background: #1C9BDA;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    z-index: 9999;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.to-top:hover{
+    color: black;
+    background: #04608D;
+}
+
 
 
 /* ----------------------------------------------HOME------------------------------------------------------- */
@@ -636,6 +703,10 @@ html{
 }
 
 
+.ecommerce-detail2 .owl-carousel,.ecommerce-detail1 .owl-carousel{
+    margin-top: 40px;
+}
+
 @media (max-width: 1080px){
     .iphone1 img{
         margin-left: -75px;
@@ -645,3 +716,111 @@ html{
         margin-left: -75px;
     }
 }
+
+@media (max-width: 812px){
+    .ecommerce1{
+        margin-top: 53px;
+    }
+}
+
+@media (max-width: 736px){
+    .iphone1 img{
+        width: 316px;
+        margin-top: -77px;   
+        margin-left: -60px; 
+    }
+    .ecommerce-detail1 {
+        margin-top: 0px;
+    }
+
+    .ecommerce-detail1 .owl-carousel{
+        margin-top: 11px;
+    }
+
+    .ecommerce2 {
+        margin-top: 62px;
+    }
+
+    .iphone2 img{
+        width: 316px;
+        margin-top: -77px;   
+        margin-left: -60px; 
+    }
+    .ecommerce-detail2 {
+        margin-top: 0px;
+    }
+
+    .ecommerce-detail2 .owl-carousel{
+        margin-top: 11px;
+    }
+}
+
+@media (max-width: 414px){
+    .iphone1 img {
+        width: 255px;
+        margin-top: -59px;
+        margin-left: -39px;
+        margin-bottom: -76px;
+    }
+
+    .ecommerce1 {
+        margin-top: -12px;
+    }
+
+    .ecommerce-detail1 h1{
+        font-size: 22px;
+    }
+
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: -10px !important;
+        margin-bottom: -15px;
+    }
+
+    .ecommerce-detail1 .owl-carousel {
+        margin-top: -5px;
+    }
+
+    .iphone2 img {
+        width: 255px;
+        margin-top: -59px;
+        margin-left: -77px;
+        margin-bottom: -76px;
+    }
+
+    .ecommerce-detail2 h1{
+        font-size: 22px;
+    }
+
+    .ecommerce-detail2 .owl-carousel {
+        margin-top: -5px;
+    }
+}
+
+@media (max-width: 375px){
+    .iphone1 img {
+        margin-left: -53px;
+    }
+}
+
+@media (max-width: 320px){
+    .iphone1 img {
+        width: 216px;
+        margin-left: -47px;
+    }
+
+    .ecommerce-detail1 .owl-carousel p{
+        font-size: 11px;
+    }
+    
+    .iphone2 img {
+        width: 216px;
+        margin-left: -72px;
+    }
+
+    .ecommerce-detail2 .owl-carousel p{
+        font-size: 11px;
+    }
+}
+
+
+

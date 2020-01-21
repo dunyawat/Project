@@ -47,5 +47,8 @@ def StaffManagement(request):
 def shipping(request):
     return render(request,'shipping.html')
 
+def Overview(request):
+    return render(request,'overview.html')
+
 
     

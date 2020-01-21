@@ -530,39 +530,139 @@
  /* ---------------------------------------feature-page------------------------------------------ */
 
 
- @media (min-width: 1920px){
+.feature-page-hero .hero-text h1{
+    font-size: 58px;
+}
+    
+.feature-page-hero .hero-text p{
+    font-size: 23px;
+}
+
+
+@media (max-width: 1920px){
 
     .feature-page-hero img{
         width: 1317px;
         margin-top: -72px;
-        display: unset;
         margin-left: -78px;
+        margin-bottom: -50px;
     }
 
 }
 
+@media (max-width: 1080px){
 
+    .feature-page-hero img{
+        width: 1098px;
+        margin-left: -91px;
+        margin-top: -33px;
+    }
 
-
-.feature-page-hero .hero-text h1{
-    font-size: 76px;
 }
-    
-.feature-page-hero .hero-text p{
-    font-size: 32px;
+
+@media (max-width: 1024px){
+
+    .feature-page-hero img{
+        width: 1039px;
+        margin-left: -62px;
+    }
 }
 
-/* 
-@media (min-width: 1920px){
+@media (max-width: 812px){
 
+    .feature-page-hero img{
+        width: 808px;
+        margin-left: -62px;
+    }
+
+    .feature-page-hero .hero-text{
+        margin-top: -30px;
+    }
+
+    .feature-page-hero .hero-text h1 {
+        font-size: 51px;
+    }
+
+    .feature-page-hero .hero-text p {
+        font-size: 21px;
+    }
     .feature-page-hero {
-        width: 1317px;
-        margin-top: -72px;
-        display: unset;
+        background: linear-gradient(to bottom, #1C9BDA 0%,#1C9BDA 60%, #04608D 60%, #04608D 100%) !important;
+    }
+    
+}
+
+@media (max-width: 736px){
+
+    .feature-page-hero img{
+        width: 724px;
+        margin-left: -108px;
     }
 
-} */
+}
 
+@media (max-width: 600px){
+
+    .feature-page-hero img{
+        width: 592px;
+        margin-left: -44px;
+        margin-top: -25px;
+    }
+
+    .feature-page-hero .hero-text h1 {
+        font-size: 41px;
+    }
+
+    .feature-page-hero .hero-text p {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 414px){
+
+    .feature-page-hero img{
+        width: 413px;
+        margin-left: -24px;
+        margin-top: -27px;
+    }
+
+    .feature-page-hero .hero-text h1 {
+        font-size: 31px;
+    }
+
+    .feature-page-hero .hero-text p {
+        margin-bottom: 0 !important;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 375px){
+
+    .feature-page-hero img{
+        width: 368px;
+        margin-left: -21px;
+    }
+
+}
+
+@media (max-width: 320px){
+
+    .feature-page-hero img{
+        width: 308px;
+        margin-left: -18px;
+    }
+
+    .feature-page-hero .hero-text h1 {
+        font-size: 25px;
+    }
+
+
+    .feature-page-hero .hero-text p {
+        font-size: 11px;
+    }
+
+}
 
 /* -------------------------------------------------------------------Ecommerce----------------------------------------------------- */
 
@@ -576,9 +676,208 @@
     z-index: 1;
 }
 
+.ecommerce-hero img{
+    width: 973px; 
+    margin-left: -279px; 
+    margin-top: 38px; 
+    margin-bottom: -34px;
+}
+
 
 @media (max-width: 1080px){
     .ecommerce-hero .btn{
         width: 145px;
     }
 }
+
+@media (max-width: 812px){
+    .ecommerce-hero img{
+        width: 740px;
+        margin-left: -44px;
+        margin-top: 24px;
+        margin-bottom: -24px;
+    }
+
+    .ecommerce-hero .hero-text{
+        margin-top: -35px;
+    }
+}
+
+@media (max-width: 667px){
+    .ecommerce-hero img{
+        width: 641px;
+        margin-left: -77px;      
+    }
+}
+
+@media (max-width: 736px){
+    .ecommerce-hero img{
+        width: 710px;
+        margin-left: -116px;    
+    }
+}
+
+
+@media (max-width: 600px){
+    .ecommerce-hero img{
+        width: 577px; 
+        margin-left: -44px;      
+    }
+}
+
+@media (max-width: 414px){
+    .ecommerce-hero img{
+        width: 399px;
+        margin-left: -27px;  
+        margin-top: 11px;
+        margin-bottom: 11px;    
+    }
+
+    .ecommerce-hero h1{
+        font-size: 44px;
+    }
+
+    .ecommerce-hero p{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 475px){
+    .ecommerce-hero img{
+        width: 364px;
+        margin-left: -26px;
+        margin-top: 2px;   
+    }
+
+    .ecommerce-hero h1{
+        font-size: 44px;
+    }
+
+    .ecommerce-hero p{
+        font-size: 14px;
+        margin-bottom: 0 !important;
+    }
+
+    .ecommerce-hero .btn {
+        width: 115px;
+    }
+
+}
+
+@media (max-width: 320px){
+    .ecommerce-hero img{
+        width: 309px;
+        margin-left: -26px;
+        margin-top: 2px;   
+    }
+
+    .ecommerce-hero h1{
+        font-size: 35px;
+    }
+
+    .ecommerce-hero p{
+        font-size: 12px;
+      
+    }
+
+}
+
+
+/* ------------------------------- benefits-overviwes -------------------------------------------------- */
+
+@media (max-width: 1920px){
+    .overviwes-hero img{
+        width: 720px;
+        margin-left: -259px;
+        margin-top: -50px;
+        margin-bottom: -54px;
+    }
+
+    .overviwes-hero .hero-text{
+        margin-top: 62px;
+        z-index: 999;
+    }
+
+    .overviwes-hero .hero-text h1{
+        font-size: 55px;
+    }
+
+    .overviwes-hero .hero-text p{
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .overviwes-hero img{
+        margin-left: -287px;
+    }
+}
+
+@media (max-width: 812px){
+    .overviwes-hero img{
+        width: 468px;
+        margin-top: -20px;
+        margin-left: 87px;
+    }
+
+    .overviwes-hero .hero-text {
+        margin-bottom: -33px;
+    }
+}
+
+@media (max-width: 736px){
+    .overviwes-hero img{
+        width: 450px;
+        margin-top: -20px;
+        margin-left: 41px;
+    
+    }
+    .overviwes-hero .hero-text h1{
+        font-size: 48px;
+    }
+
+    .overviwes-hero .hero-text p{
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 414px){
+    .overviwes-hero img{
+        width: 350px;
+        margin-top: -25px;
+        margin-left: 5px;
+    
+    }
+    .overviwes-hero .hero-text h1{
+        font-size: 39px;
+    }
+
+    .overviwes-hero .hero-text p{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 375px){
+    .overviwes-hero img{
+        margin-left: -14px;
+    }
+}
+
+@media (max-width: 320px){
+    .overviwes-hero img{
+        width: 274px;
+        margin-left: -1px;
+    }
+
+    .overviwes-hero .hero-text h1{
+        font-size: 28px;
+    }
+
+    .overviwes-hero .hero-text p{
+        font-size: 12px;
+    }
+}
+

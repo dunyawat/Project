@@ -21,10 +21,10 @@
 
 <!-- section -->
 
-<div class="container">
-    <div class="row">
+<!-- <div class="container">
+    <div class="row"> -->
         <!-- row1 -->
-        <div class="col-lg-4">
+        <!-- <div class="col-lg-4">
 
         </div>
         <div class="col-lg-4  text-center">
@@ -32,10 +32,10 @@
         </div>
         <div class="col-lg-4">
 
-        </div>
+        </div> -->
 
         <!-- row2 -->
-        <div class="col-lg-4  text-center">
+        <!-- <div class="col-lg-4  text-center">
             <img src="{%static 'img/inventory/inventory-02.svg' %}">
         </div>
         <div class="col-lg-4 text-center p-2">
@@ -44,10 +44,10 @@
         </div>
         <div class="col-lg-4  text-center">
             <img src="{%static 'img/inventory/inventory-03.svg' %}">
-        </div>
+        </div> -->
 
         <!-- row3 -->
-        <div class="col-lg-4 text-center p-2">
+        <!-- <div class="col-lg-4 text-center p-2">
             <h3 class="mb-3">ตรวจสอบ ควบคุมจำนวน ของสินค้า เข้า - ออก</h3>
             
         </div>
@@ -58,10 +58,10 @@
             <h3 class="mb-3">กำหนดชั้น จุด สถานที่สาขาที่วางสินค้า</h3>
             <p class="text-muted">coming soon</p>
             
-        </div>
+        </div> -->
 
         <!-- row4 -->
-        <div class="col-lg-4  text-center">
+        <!-- <div class="col-lg-4  text-center">
             <img src="{%static 'img/inventory/inventory-05.svg' %}">
         </div>
         <div class="col-lg-4 text-center">
@@ -69,10 +69,10 @@
         </div>
         <div class="col-lg-4  text-center">
             <img src="{%static 'img/inventory/inventory-07.svg' %}">
-        </div>
+        </div> -->
 
         <!-- row5 -->
-        <div class="col-lg-4 text-center p-2">
+        <!-- <div class="col-lg-4 text-center p-2">
             <h3 class="mb-3">บันทึกการเคลื่อนย้ายสินค้า</h3>
             
         </div>
@@ -86,8 +86,53 @@
             
         </div>
     </div>
-</div>
+</div>  -->
 
+<div id="outerContainer">
+    <div class="text-center container" id="container" style="height: 900px;">
+        <div class="item" style="position: absolute; " data-aos="zoom-in" data-aos-delay="2200"
+        data-aos-duration="700">
+            <img src="{%static 'img/inventory/line.svg' %}" style="width: 532px; margin-top: 70px;">
+        </div>
+        <div class="item" style="position: absolute;" data-aos="zoom-in" data-aos-delay="200"
+        data-aos-duration="1000">
+            <img src="{%static 'img/inventory/inven-01.png' %}" style="width: 400px; margin-top: 66px;">
+        </div>
+        <div class="item" style="position: absolute;" data-aos="zoom-in" data-aos-delay="1200"
+        data-aos-duration="700">
+            <img src="{%static 'img/inventory/inven-03.png' %}" style="width: 155px;">
+        </div>
+        <div style="position: absolute;top:15px;right:425px;" data-aos="zoom-in" data-aos-delay="2800"
+        data-aos-duration="1000">
+            <img src="{%static 'img/inventory/inventory-01.svg' %}" style="width: 300px;" alt="">
+            <h5>เช็ควันหมดอายุสินค้า</h5>
+        </div>
+        <div style="position: absolute;top:191px;right:716px;" data-aos="zoom-in" data-aos-delay="2800"
+        data-aos-duration="1000">
+            <img src="{%static 'img/inventory/inventory-02.svg' %}" style="width: 300px;" alt="">
+            <h5>ตรวจสอบ ควบคุมจำนวน<br>ของสินค้า เข้า - ออก</h5>
+        </div>
+        <div style="position: absolute;top:175px;right:107px;" data-aos="zoom-in" data-aos-delay="2800"
+        data-aos-duration="1000">
+            <img src="{%static 'img/inventory/inventory-03.svg' %}" style="width: 300px;" alt="">
+            <h5 style="margin-top: 17px;">กำหนดชั้น จุด สถานที่<br>สาขาที่วางสินค้า</h5>
+        </div>
+        <div style="position: absolute;top:598px;right:717px;"  data-aos="zoom-in" data-aos-delay="2800"
+        data-aos-duration="1000">
+            <img src="{%static 'img/inventory/inventory-05.svg' %}" style="width: 300px;" alt="">
+            <h5 style="margin-top: -38px;">บันทึกการ<br>เคลื่อนย้ายสินค้า</h5>
+        </div>
+        <div style="position: absolute;top:598px;right:407px; z-index: 101;" data-aos="zoom-in" data-aos-delay="2800"
+        data-aos-duration="1000">
+            <img src="{%static 'img/inventory/inventory-06.svg' %}" style="width: 300px;" alt="">
+            <h5>บันทึกสถานะสินค้า :<br>คืนสินค้า เสียหาย แตก<br>มีปัญหา ขายไม่ได้</h5>
+        </div>
+        <div style="position: absolute;top:602px;right:120px; z-index: 101;" data-aos="zoom-in" data-aos-delay="2800"
+        data-aos-duration="1000">
+            <img src="{%static 'img/inventory/inventory-07.svg' %}" style="width: 300px;" alt="">
+            <h5 style="margin-top: -50px;" >เช็ควัน และจำนวน<br>สินค้าที่รับเข้ามา</h5>
+        </div>
+</div>
 
 
 {% endblock%}
